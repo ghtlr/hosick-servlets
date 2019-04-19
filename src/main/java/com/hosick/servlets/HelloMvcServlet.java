@@ -11,10 +11,10 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * 서블릿은 데이터 처리만 하고 페이지 출력은 JSP와 같은 뷰 기술로 넘긴다.
  * 
- * @author 
+ * @author 식
  */
-@WebServlet("/helloworld")
-public class HelloServlet extends HttpServlet {
+@WebServlet("/helloMvc")
+public class HelloMvcServlet extends HttpServlet {
 
 	@Override
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
